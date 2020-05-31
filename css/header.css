@@ -1,0 +1,20 @@
+header {
+    font-family: Libre Baskerville;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 14rem 0;
+}
+
+.header__title{
+    display: block;
+    max-width: 55.6rem;
+    margin-bottom: 6.4rem;
+
+    font-size: 53px;
+    line-height: 66px;
+}
+
+header span {
+    color: var(--color-secondary);
+}
+

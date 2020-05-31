@@ -5,40 +5,72 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/styles.css">
+        <!-- FONTS -->
+        <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
     </head>
     <body>
         <!-- NAVIGATION MENU -->
         <nav>
-            <div class="logo">
-                <img src="img/logo.svg" alt="simpleblog">
-            </div>
-            <div class="nav__menu">
-                <ul>
-                    <li><a href="#" class="menu-item">Home</a></li>
-                    <li><a href="#" class="menu-item">About</a></li>
-                    <li><a href="#" class="menu-item">Contact</a></li>
-                </ul>
+            <div class="container">
+                <div class="logo">
+                    <img src="img/logo.svg" alt="simpleblog">
+                </div>
+                <div class="nav__menu">
+                    <ul>
+                        <li class="menu-item"><a href="#" >Home</a></li>
+                        <li class="menu-item"><a href="#">About</a></li>
+                        <li class="menu-item"><a href="#" >Contact</a></li>
+                    </ul>
+                </div>
             </div>
         </nav>
         <!-- HEADER -->
         <header>
-            <h1>
-                A <span>simble blog</span>, about simple things.
-            </h1>
-            <!-- NEWSLETTER -->
-            <form action="#">
-                <label for="newsletter">Join our newsletter</label>
-                <input type="text" id="newsletter" name="newsletter" placeholder="Your email...">
-                <input type="button" value="Join Newsletter">
-            </form>
+            <div class="container">
+                <h1 class="header__title">
+                    A <span>simple blog</span>, about simple things.
+                </h1>
+                <!-- NEWSLETTER -->
+                <form class="newsletter-form" action="#">
+                    <label for="newsletter">Join our newsletter</label>
+                        <input type="email" id="newsletter" name="newsletter" placeholder="Your email...">
+                        <input class="btn btn-primary" type="submit" value="Join Newsletter">
+                </form>
+            </div>        
         </header>
-
+        <!-- BLOG POSTS -->
         <section class="blog-posts">
             <div class="container">
+                <!-- BLOG POST ITEM -->
                 <div class="blog-post">
                     <div class="blog-post__img">
                         <img src="img/waterfall.jpg" alt="waterfall">
+                    </div>
+                    <div class="blog-post__date">
+                        June 19, 2020
+                    </div>
+                    <div class="blog-post__title">
+                        <h2>
+                            This is a waterfall
+                        </h2>
+                    </div>
+                    <div class="blog-post__text-preview">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. 
+                        </p>
+                    </div>
+                    <div class="blog-post__btn">
+                        <a href="#">   
+                            <span>
+                                <img src="img/chevron.svg" alt="read more">
+                            </span>
+                            Read More
+                        </a>
                     </div>
                 </div>
             </div>

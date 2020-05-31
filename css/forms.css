@@ -1,0 +1,44 @@
+label {
+    display: block;
+    margin-bottom: 1.6rem;
+    opacity: .6
+}
+
+input[type="email"] {
+    height: 4.8rem;
+    padding-left: 1.2rem;
+    font-size: 1.6rem;
+    outline: none;
+    width: 44rem;
+    margin-right: .8rem;
+
+    background: #F8F8F8;
+    border: 1px solid #EFEFEF;
+    border-radius: 4px;
+}
+
+/* .join-newsletter{
+    display: flex;
+} */
+
+.btn input[type="submit"]{
+    height: inherit;
+    color: #fff;
+    padding: 1.6rem;
+    line-height: 100%;
+    border-radius: 4px;
+    border: 0;
+    transition: ease-in-out .2s;
+    -webkit-transition: all ease-in-out .2s;
+    -moz-transition: ease-in-out .2s;
+    -ms-transition: ease-in-out .2s;
+    -o-transition: ease-in-out .2s;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+input[type="submit"]:hover{
+    cursor: pointer;
+}
