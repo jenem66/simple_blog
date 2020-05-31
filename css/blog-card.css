@@ -1,0 +1,42 @@
+.blog-posts .container{
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+
+.blog-post {
+    width: 33%;
+}
+
+.blog-post__img img {
+    width: 100%;
+    margin-bottom: 1.6rem;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+
+.blog-post__date {
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
+    opacity: .6;
+    font-size: 1.5rem;
+}
+
+.blog-post__title {
+    font-size: 2rem;
+    margin: 1.6rem 0;
+}
+
+.blog-post__btn a{
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 1.6rem;
+}
+
+.blog-post__btn img {
+    margin-right: .8rem;
+}

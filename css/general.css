@@ -22,9 +22,27 @@ body {
     color: var(--text-color);
 }
 
+h1,
+h2,
+h3,
+label {
+    font-family: "Libre Baskerville", Georgia, "Times New Roman", Times, serif;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+p {
+    line-height: 170%;
+    opacity: .8;
+    font-size: 1.8rem;
+}
+
 a {
     text-decoration: none;
     color: var(--color-text);
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
 }
 
 .container {
@@ -37,7 +55,9 @@ a {
     color: #fff;
     padding: 0 1.6rem;
     border-radius: 4px;
-    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    letter-spacing: .1rem;
 
     transition: all ease-in-out .2s;
     -webkit-transition: all ease-in-out .2s;
