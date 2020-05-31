@@ -35,8 +35,29 @@
     font-weight: 700;
     text-transform: uppercase;
     margin-top: 1.6rem;
+    
+    transition: all ease-in-out .3s;
 }
 
-.blog-post__btn img {
-    margin-right: .8rem;
+.blog-post__btn a:hover {
+    color: var(--color-secondary);
+}
+
+.blog-post__btn a::before {
+    content: url(../img/chevron.svg);
+    margin-right: 1rem;
+    vertical-align: center;
+    position: relative;
+
+    transition: all ease-in-out .3s;
+}
+
+.blog-post__btn a:hover::before {
+    position: relative;
+    
+    transform: translateX(8px);
+    -webkit-transform: t;
+    -moz-transform: t;
+    -ms-transform: t;
+    -o-transform: t;
 }

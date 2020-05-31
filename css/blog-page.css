@@ -1,0 +1,60 @@
+/* POST CONTENT */
+
+blockquote {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 170%;
+    opacity: .7;
+    display: flex;
+    margin: 4.8rem 0;
+
+}
+
+blockquote::before {
+    content: url(../img/quote.svg);
+    margin-right: 2.4rem;
+}
+
+.caption {
+    font-style: italic;
+    font-size: 16px;
+    display: block;
+    padding: 1.6rem 0;
+    text-align: center;
+    margin-bottom: 3.2rem;
+}
+
+.post-page h2 {
+    font-size: 3.2rem;
+    margin-bottom: 4rem;
+}
+
+.post-page p:first-child::first-letter {
+    font-size: 4.8rem;
+}
+
+.post-page__author {
+    display: flex;
+    align-items: center;
+    margin: 3.2rem 0;
+    font-size: 1.4rem;
+}
+
+.post-page__author img{
+    width: 4rem;
+    margin-right: 1.6rem;
+}
+
+.author-name {
+    font-family: Libre Baskerville;
+    margin-bottom: .6rem;
+}
+
+img.post-img {
+    display: block;
+    margin-top: 5.6rem;
+}
+
+
+/* AUTHOR BIO */
