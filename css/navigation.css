@@ -6,12 +6,12 @@ nav .container{
 
 .nav__menu ul {
     display: flex;
-
 }
 
 .menu-item {
     margin-left: 4rem;
     position: relative;
+    font-weight: 700;
 }
 
 .menu-item a:hover {
@@ -20,6 +20,9 @@ nav .container{
 
 .menu-item a,
 .menu-item a::before {
+    
+    font-size: 1.4rem;
+    
     transition: ease-in-out .3s;
     -webkit-transition: ease-in-out .3s;
     -moz-transition: ease-in-out .3s;

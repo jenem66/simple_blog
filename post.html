@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
+        <title> simpleBlog | This is a waterfall</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/reset.css">
@@ -18,7 +18,9 @@
         <nav>
             <div class="container">
                 <div class="logo">
-                    <img src="img/logo.svg" alt="simpleblog">
+                    <a href="index.html">
+                        <img src="img/logo.svg" alt="simpleblog">
+                    </a>
                 </div>
                 <div class="nav__menu">
                     <ul>
@@ -30,6 +32,7 @@
             </div>
         </nav>
 
+        <!-- POST PAGE -->
         <section>
             <div class="container">
                 <div class="post-page">
@@ -56,7 +59,8 @@
                         </div>
                         <div class="post-page__text">
                             <p>
-                                This is a waterfall ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
+                                This is a waterfall ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, 
+                                <a class= "post-link" href="#">ligula sollicitudin laoreet</a> viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.
                             </p>                        
                             <p>
                                 Sed egestas, ante et vulputate volutpat, eros pede semper est, vitae luctus metus libero eu augue. Morbi purus libero, faucibus adipiscing, commodo quis, gravida id, est. Sed lectus.
@@ -84,11 +88,45 @@
                     <!-- AUTHOR BIO -->
                     <aside>
                         <div class="post-page__author-bio">
+                            <div class="author-bio__img">
+                                <img src="img/avatar.jpg" alt="author image">
+                            </div>
+                            <div class="author-bio__name">
+                                <h3>
+                                    Julie Robertson
+                                </h3>                                
+                            </div>
+                            <div class="author-bio__company">
+                                Journalist, WritersInc
+                            </div>
+                            <div class="autho-bio__text">
+                                <p>
+                                    I am the author  sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id.
+                                </p>
+                            </div>
+                            <div class="author-bio__social-links">
+                                <div class="social-links__title">
+                                    follow me
+                                </div>
+                                <div class="social-links__icons">
+                                    <a href="#">
+                                        <img src="img/twitter.svg" alt="twitter">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/linkedin.svg" alt="linkedin">
+                                    </a>
+                                    <a href="#">
+                                        <img src="img/facebook.svg" alt="facebook">
+                                    </a> 
+                                </div>
+                            </div>
                         </div>
                     </aside>
                 </div>
             </div>
         </section>
+
+        <!-- FOOTER -->
         <footer>
             ©2020 simpleBlog
         </footer>

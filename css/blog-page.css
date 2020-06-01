@@ -16,6 +16,29 @@ blockquote::before {
     margin-right: 2.4rem;
 }
 
+.post-page {
+    display: grid;
+    grid-template-columns: 65% 30%;
+    grid-gap: 5%;
+}
+
+.post-page__content img {
+    width: 100%;
+    border-radius: 4px ;
+    -webkit-border-radius: 4px ;
+    -moz-border-radius: 4px ;
+    -ms-border-radius: 4px ;
+    -o-border-radius: 4px ;
+}
+
+.post-link {
+    color: var(--color-primary);
+    text-transform: inherit;
+    font-size: inherit;
+    text-decoration: underline;
+    
+}
+
 .caption {
     font-style: italic;
     font-size: 16px;
@@ -25,12 +48,22 @@ blockquote::before {
     margin-bottom: 3.2rem;
 }
 
+.post-page__author img,
+.author-bio__img img
+{
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
 .post-page h2 {
     font-size: 3.2rem;
     margin-bottom: 4rem;
 }
 
-.post-page p:first-child::first-letter {
+.post-page__content p:first-child::first-letter {
     font-size: 4.8rem;
 }
 
@@ -55,6 +88,3 @@ img.post-img {
     display: block;
     margin-top: 5.6rem;
 }
-
-
-/* AUTHOR BIO */
